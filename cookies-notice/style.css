@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: aliceblue;
+  color: black;
+}
+
+body.dark {
+  background-color: darkslategrey;
+  color: white;
+}
+
+#cookie-notice {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.button-decline {
+  background-color: #f00;
+}
+
+.button-accept {
+  background-color: #0f0;
+}
+
+#cookie-notice p {
+  margin: 0;
+}
